@@ -135,6 +135,7 @@
 
 
 </body>
+<script src="js/build/build.js"></script>
 <script>
     //注意：导航 依赖 element 模块，否则无法进行功能性操作
     layui.use('element', function(){
@@ -142,8 +143,9 @@
       
       //…
     });
-    $(".projects ul").prepend(
-      '<li><div class="project"><div class="project-bg"><a target="_blank"  class="plus">Unity</a><a target="_blank" href="Unity/stud1/index.html" ><img class="projectimage" src="images/UnityPro/stud1.png" alt="" /></a></div></div>'
-    )
+
+   
+   addProject('stud1','UnityPro');
+
     </script>
 </html>
